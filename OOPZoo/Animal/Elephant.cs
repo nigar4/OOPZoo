@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 using OOPZoo.Options;
 namespace OOPZoo.Animal
 {
-    public class ElephantAnimal:AbstractAnimal
+    public class Elephant:AbstractAnimal
     {
-        public ElephantAnimal(string name,int age,int weight):base (name,age,weight)
+        public Elephant(string name,int age,int weight):base (name,age,weight)
         {
             Name = name;
             Age = age;
@@ -18,6 +18,7 @@ namespace OOPZoo.Animal
             Square = 100;
             IsPredator = false;
             _sound = "VUUU";
+            
         }
     }
 }

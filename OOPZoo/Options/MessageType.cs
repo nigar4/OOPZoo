@@ -6,10 +6,12 @@ using System.Threading.Tasks;
 
 namespace OOPZoo.Options
 {
-    public class Message
+    public enum MessageType
     {
-        public string Text { get; set; }
-        public string Name { get; set; }
-        public MessageType MessageType { get; set; }
+        Play,
+        Eat,
+        Sound,
+        Run
+
     }
 }

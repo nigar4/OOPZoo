@@ -1,16 +1,15 @@
 ﻿namespace OOPZoo.Animal
 {
-   /* public class Tiger : AbstractAnimal
+    public class Tiger : AbstractAnimal
     {
-      *//*  public TigerAnimal(string name, int age) : base(name, age)
+       public Tiger(string name, int age,int weight) : base (name, age,weight)
         {
-            Name = "Simba";
-            Age = age;
-            _sound = "RRRR";
-            IsPredator = true;
+           
             Eat = new string[] { "Meat" };
-        }*//*
+            Biome=Options.BiomType.Jungle;
+            _sound = "rrrrr";
+        }
 
 
-    }*/
+    }
 }

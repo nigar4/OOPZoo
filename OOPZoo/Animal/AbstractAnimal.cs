@@ -27,9 +27,25 @@ namespace OOPZoo.Animal
             
         }
 
-       public void ToEat(string eat,int kg)
+       public Message ToEat(string eat,int kg)
         {
-            Console.WriteLine($"{Name} kushaet  {kg} kg {eat} za den ");
+            return new Message()
+            {
+                Text = $"{Name} poel {kg} kilogramm {eat}",
+                Name = this.Name,
+                MessageType = MessageType.Eat
+            };
+          
         }
+        public Message ToSound()
+        {
+            return new Message()
+            {
+                Text =$"{ Name} izdaet zvuki { _sound}",
+                Name =this.Name,
+                MessageType = MessageType.Sound
+            };
+        }
+           
     }
 }
