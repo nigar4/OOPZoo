@@ -11,6 +11,7 @@ namespace OOPZoo.Options
     {
         Jungle,
         Savanna,
-        Tropic
+        Tropic,
+        Forest
     }
 }

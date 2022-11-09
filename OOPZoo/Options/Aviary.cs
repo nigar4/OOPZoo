@@ -28,7 +28,7 @@ namespace OOPZoo.Options
        public string AddAnimal(AbstractAnimal animal)
         {
             Animals.Add(animal);
-            return $"B{Name} poselilsa {animal.Name}";
+            return $"{animal.Name} poselilsa v {Name}";
         }
 
         
