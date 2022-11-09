@@ -8,6 +8,8 @@
             Eat = new string[] { "Meat" };
             Biome=Options.BiomType.Jungle;
             _sound = "rrrrr";
+            IsPredator = true;
+
         }
 
 

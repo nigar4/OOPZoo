@@ -12,6 +12,7 @@ namespace OOPZoo.Animal
         {
             Eat = new string[] { "Carrot" };
             Biome = Options.BiomType.Forest;
+            IsPredator = false;
             _sound = "brbrbr";
         }
     }
